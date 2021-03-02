@@ -54,7 +54,6 @@ h2 {
   transform: rotate(25deg);
   position: absolute;
   right: 30%;
-
 }
 
 /* Features section */
@@ -63,7 +62,6 @@ h2 {
   background-color: white;
   position: relative;
   z-index: 1;
-
 }
 
 .feature-box {
@@ -76,12 +74,12 @@ h2 {
   font-size: 1.5rem;
 }
 
-.fas {
+.hover-icon {
   color: #ef8172;
   margin-bottom: 1rem;
 }
 
-.fas:hover {
+.hover-icon:hover {
   color: #ff4c68;
 }
 
@@ -116,11 +114,52 @@ h2 {
   width: 15%;
   margin: 20px 50px;
 }
+
 /* pricing section */
-#pricing{
+#pricing {
   padding: 100px;
   text-align: center;
 }
-.pricing-col{
+
+.pricing-col {
   padding: 3% 2%;
+}
+
+/* call to action section */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 50px 25px;
+}
+
+.cta-heading {
+  font-family: "Montserrat-Black";
+  color: white;
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+
+.cta-button {
+  margin: 5% 3% 5% 0;
+}
+
+#footer {
+  border-color: #fff;
+  text-align: center;
+  padding: 50px 25px;
+}
+
+.social-icon {
+  margin: 2% 1%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
 }
